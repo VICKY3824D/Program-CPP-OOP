@@ -70,16 +70,13 @@ int main() {
     
     Balok *obj1 = new Balok(10,9,8);
     Balok *obj2 = new Balok(8,6,4);
-    Balok *obj3 = new Balok(6,4,2);
     
     //menampilkan volume balok
     obj1->cetakVolume("obj1");
     obj2->cetakVolume("obj2");
-    obj3->cetakVolume("obj3");
 
     delete obj1;
     delete obj2;
-    delete obj3;
 
     //menampilkan jumlah objek balok setelah objek dibuat
     cout << "\nKeadaan Akhir" << endl;

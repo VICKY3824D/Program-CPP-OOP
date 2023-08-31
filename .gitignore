@@ -1,0 +1,6 @@
+# ignore folder log (<folder name>/)
+
+#ignere file extension .exe
+*.exe
+
+#ignore file

@@ -1,3 +1,5 @@
+#ifndef _PLAYER
+#define _PLAYER
 #include <string>
 
 // Deklarasi Class
@@ -12,3 +14,5 @@ class Player{
         std::string getName();
         void setName(const char*);
 };
+
+#endif
